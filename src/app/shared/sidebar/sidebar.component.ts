@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
     li {
       cursor: pointer;
     }
+    li:hover:not(.active) {
+      background-color: rgba(0,0,200,0.1);
+    }
   `
   ]
 })
